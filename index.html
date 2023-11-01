@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Final project for lecture desarrollo de sistemas web.">
+    <title>NacioJobs</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+</head>
+<body>
+    <div id="importantMessage" class="message">
+        <p><strong>IMPORTANTE</strong>: Esta página fue desarrollada por Valentin Spaciuk como trabajo final de Desarrollo de Sistemas WEB <br> 
+        <strong> LOS TRABAJOS PUBLICADOS NO SON REALES</strong></p>
+    </div>
+
+    <header>
+        <h1 id="logo-title">
+            <img src="icon-final.png" width="500" height="500" alt="NacioJobs Logo" id="logo">
+            NacioJobs
+        </h1>
+             
+    </header>
+    <main>
+        <div id="filters">
+            <label for="languageFilter">Filtros:</label>
+
+            <label for="languageFilter">Lenguaje:</label>
+            <select id="languageFilter">
+                <option value="all">Todos</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="SQL">SQL</option>
+            </select>
+
+            <label for="seniorityFilter">Seniority:</label>
+            <select id="seniorityFilter">
+                <option value="all">Todos</option>
+                <option value="Trainee">Trainee</option>
+                <option value="Junior">Junior</option>
+                <option value="SemiSenior">Semi Senior</option>
+                <option value="Senior">Senior</option>
+            </select>
+
+            <input type="checkbox" id="englishFilter">
+            <label for="englishFilter">Inglés requerido</label>
+
+            <label for="dateFilter">Fecha de Publicación:</label>
+            <select id="dateFilter">
+                <option value="all">Todos</option>
+                <option value="last7days">Últimos 7 días</option>
+                <option value="last30days">Últimos 30 días</option>
+            </select>
+
+            <label for="sortFilter">Ordenar por:</label>
+            <select id="sortFilter">
+                <option value="newest">Más recientes</option>
+                <option value="oldest">Más antiguos</option>
+            </select>
+        </div>
+
+        <p id="noJobsMessage" style="display: none;">No hay trabajos que coincidan con los filtros seleccionados.</p>
+        <section id="jobList"> </section>
+        <button id="loadMoreButton">Ver más</button>
+        
+    </main>
+
+    <footer>
+        <p>© 2023 Valentín Spaciuk</p>
+    </footer>
+
+    <div id="applicationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Aplicar para el trabajo</h2>
+            <form id="applicationForm">
+                <label for="email">Correo:</label>
+                <input type="email" id="email" required>
+                <label for="cv">Cargar CV (PDF):</label>
+                <input type="file" id="cv" accept=".pdf" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>
