@@ -159,7 +159,7 @@ footer {
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 40%;
+    width: 30%;
     border-radius: 5px;
     position: relative;
 }
@@ -181,6 +181,7 @@ footer {
     flex-direction: column;
     gap: 10px;
     align-items: center; 
+    max-width: 100%;
 }
 
 
@@ -189,6 +190,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
+    width: 100%;
 }
 
 #cv {
@@ -196,6 +198,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
+    width: 100%;
 }
 
 button[type="submit"] {
@@ -204,7 +207,7 @@ button[type="submit"] {
     background-color: #4CAF50;
     color: #fff;
     border: none;
-    border-radius: 100px;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s;
 }
@@ -219,4 +222,10 @@ button[type="submit"]:hover {
     background-color: #ff9101;
     padding: 10px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%; 
+    }
 }
