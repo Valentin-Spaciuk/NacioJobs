@@ -26,6 +26,3 @@ En este caso yo utilice Array.
 
 ## Autor
 - Valentín Spaciuk
-
-## Licencia
-Este proyecto se encuentra bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
