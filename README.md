@@ -13,7 +13,7 @@ En este caso yo utilice Array.
 - Aplica para trabajos.
 
 ## Uso
-1. Ingresa a <a href="https://valentin-spaciuk.github.io/NacioJobs/" target="_blank">Ingresa a https://valentin-spaciuk.github.io/NacioJobs/ </a>.
+1. Ingresa a este <a href="https://valentin-spaciuk.github.io/NacioJobs/" target="_blank">link</a>.
 2. Utiliza los filtros disponibles.
 3. Haz clic en el botón "Aplicar" en una oferta de trabajo para abrir el formulario y postularte.
 4. Completa el formulario con tu correo electrónico y carga tu CV en formato PDF.
