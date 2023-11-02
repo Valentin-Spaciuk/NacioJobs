@@ -52,7 +52,7 @@ const jobs = [
         language: "JavaScript",
         seniority: "Senior",
         annualSalary: "U$D 65,000",
-        datePosted: new Date(2023, 11, 20), 
+        datePosted: new Date(2023, 10, 20), 
     },
     {
         title: "Desarrollador Full Stack JavaScript Junior",
