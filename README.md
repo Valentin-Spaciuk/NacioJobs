@@ -8,10 +8,10 @@ Realizar una app que contenga código javascript y deberán utilizar obligatoria
 Además deberán realizar el DIAGRAMA DE CLASES de dicha app y algún otro diagrama UML de su elección.
 
 ## Diagrama de Clases
-![Diagrama de clases](images\diagrama-de-clases.png)
+![Diagrama de clases](images/diagrama-de-clases.png)
 
 ## Diagrama de Caso de uso
-![Diagrama de clases](images\caso-de-uso.png)
+![Diagrama de clases](images/caso-de-uso.png)
 
 ## Uso
 1. Ingresa a este <a href="https://valentin-spaciuk.github.io/NacioJobs/" target="_blank">link</a>.
